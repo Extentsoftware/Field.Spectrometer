@@ -1,6 +1,6 @@
 # Potential suppliers
 
-Register started 11 October 2026 from project discussions. A listing is not an approved component. Prices and stock must be reconfirmed before purchase; no fresh supplier verification was performed for this import.
+Updated 11 October 2026. UK sourcing reviewed in [UK_PROCUREMENT.md](UK_PROCUREMENT.md), which supersedes historical price leads below. A listing is not an approved component; stock and checkout prices need reconfirmation.
 
 | ID | Supplier / source | Candidate supply | Outstanding checks |
 |---|---|---|---|
@@ -10,6 +10,41 @@ Register started 11 October 2026 from project discussions. A listing is not an a
 | S04 | [Edmund Optics fibre patchcords](https://www.edmundoptics.co.uk/f/fiber-optic-patchcords/12957) | Fibre cable / optical component shortlist | Appropriate spectral range, core/NA, SMA905 at both ends, length, bend radius and quote |
 | S05 | [Spectrophoton eBay collimator listing](https://www.ebay.co.uk/itm/143564315798) | Adjustable collimator lead | Listing may be stale; coating/range, aperture, NA, dimensions, condition and return terms |
 | S06 | [Galvoptics fused-silica lenses](https://www.galvoptics.co.uk/optical-components/optical-lenses/uv-fused-silica-plano-convex-lenses/) | Lens option if custom head needs it | Optical design first; not an additional confirmed BOM requirement |
+
+## UK sourcing additions
+
+| ID | Supplier | Candidate supply / key remaining check |
+|---|---|---|
+| S07 | [Anglia Instruments / Spectroscopy Shop](https://www.angliainst.co.uk) | Fibre and collimator; resolve spectral-range conflict and body drawing |
+| S08 | [The Pi Hut](https://thepihut.com) | Pololu regulator, Mean Well PSU, inserts, screws and jack; selected listings linked in purchasing sheet |
+| S09 | [RS UK](https://uk.rs-online.com) | FTDI interface and Hammond enclosure; use manufacturer drawings |
+| S10 | [First4Magnets](https://www.first4magnets.com) | F643 magnets; select 20-pack rather than default bulk option |
+| S11 | [Technobots](https://www.technobotsonline.com) | Hinge rod and GX12-3 connector |
+| S12 | [TYM](https://tym.co.uk) | 0.8 mm black silicone; request small offcut and confirm VAT |
+| S13 | [Sinolec](https://sinolec.co.uk) | K507K ceramic holder; drawing and inconsistent VAT display |
+| S14 | [Aluminium Online](https://www.aluminium-online.co.uk) | Sheet material; not a completed thermal assembly |
+| S15 | [HobbyRC](https://www.hobbyrc.co.uk) | Silicone wire |
+| S16 | [Milly's Cameras](https://cameramill.co.uk) | Flock sheet; option price, thickness and thermal/optical suitability |
+| S17 | [3DQF](https://www.3dqf.co.uk) | UK-made PETG; use existing stock where possible |
+
+## China sourcing additions
+
+Full links, prices, dimensions and evidence limits are in [CHINA_PROCUREMENT.md](CHINA_PROCUREMENT.md). Marketplace seller leads without verified names remain identified by exact listing ID there. These are not approved substitutions.
+
+| ID | Supplier | Candidate / limitation |
+|---|---|---|
+| C01 | Shanghai Goptica | V600-S/S-L2 SMA905 fibre; technical match, price/NA/drawing RFQ |
+| C02 | Shenzhen Wirenet | Alibaba fibre; contradictory MOQ units, hold |
+| C03 | CivilLaser / NaKu Technology | $84 collimator product 1012; published drawing; confirm adjusted envelope |
+| C04 | Guangzhou Jingyi Photoelectric | Alibaba SMA905 collimator backup; price/drawing not retrieved |
+| C05 | Shenzhen Pute Optoelectronic | 6 V 10 W G4 lamp; $0.39 with 200 MOQ; sample/drawing needed |
+| C06 | Yueqing Lapu Lighting | Ceramic holder; 100 MOQ, conflicting G4/G9 and lead-length fields |
+| C07 | Nanjing Co-Energy Optical Crystal | Custom diffuser; dormant listing, fresh RFQ needed |
+| C08 | DFRobot | DFR0946 regulator, FIT0224 fasteners; manufacturer-direct prices |
+| C09 | Waveshare | Same 23949 isolated interface; manufacturer listing price, live availability to confirm |
+| C10 | JLC3DP / JLCCNC | Custom print/metalwork after R2; no quote or upload made |
+| C11 | Harfington / Uxcell | Rod and inserts; Guangzhou company/Hong Kong contact, SKU dispatch origin unconfirmed |
+| C12 | Zhejiang Mingguan Electric | 200 × 120 × 75 mm enclosure, $4 sample lead; internal drawing/variant quote |
 
 ## Request format for quotations
 

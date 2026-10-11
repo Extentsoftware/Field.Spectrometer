@@ -26,6 +26,29 @@ Updated 11 October 2026. Owners and due dates are unassigned until agreed. Tasks
 | T08 | Validation | Plan paired leaf spectra and laboratory measurements | Documented sampling protocol and independent validation before nutrient claims |
 | T09 | Ongoing | Confirm costs, orders and received parts | Quotes and inventory updates linked to BOM IDs |
 
+## Sourcing review follow-up — 11 October 2026
+
+UK sources, variants, prices and dimensions are recorded in [UK_PROCUREMENT.md](UK_PROCUREMENT.md). This completes the supplier search pass, not T02 component approval. Proposed choices remain subject to the following work:
+
+| ID | Priority | Action | Completion evidence |
+|---|---|---|---|
+| T10 | First | Resolve Anglia UV cable range conflict and HYD1 coupling | Written full-range cable specification, VAT/delivery and core/NA confirmation |
+| T11 | First | Obtain collimator body, holder, board and connector drawings | Dimensions sufficient for R2; lens diameter not substituted for body OD |
+| T12 | Next | Revise source, diffuser seat and case layout for sourced parts | R2 drawings with thermal assembly, 12.5 mm diffuser, real mounts and bend clearance |
+| T13 | First | Complete sensor power and branch protection omitted from initial BOM | Reviewed schematic and priced A1-021 items; HYD1 input confirmed |
+| T14 | Cost control | Request silicone offcut and confirm included fibre/interface | Reduced order quantities and delivered prices, without duplicate purchases |
+
+## China sourcing follow-up — 11 October 2026
+
+All BOM IDs reviewed in [CHINA_PROCUREMENT.md](CHINA_PROCUREMENT.md). Several marketplace prices/dimensions remain unverified; the search does not release those parts for order.
+
+| ID | Priority | Action | Completion evidence |
+|---|---|---|---|
+| T15 | First | Confirm CivilLaser collimator and Goptica/Torchbearer fibre package | Exact variant, drawings, full spectral range, one-unit delivered prices |
+| T16 | Next | Compare regulator and interface alternatives | DFR0946 startup/ripple test, independent switch design and revised enclosure layout; Waveshare kit-inclusion check |
+| T17 | Cost control | Obtain low-quantity lamp/holder/enclosure quotes where useful | Actual sample prices with shipping; no bulk MOQ treated as per-prototype cost |
+| T18 | Next | Validate received China mechanical parts against dimensions | Insert OD coupon, hinge rod diameter/straightness, magnet grade and axial polarity |
+
 ## Release gates
 
 R2 CAD requires selected supplier dimensions and a thermal/mechanical review. Powered testing requires a reviewed electrical and heat-management arrangement. Nutrient estimates require crop-specific calibration and independent validation; neither laboratory replacement nor return on investment is established by purchasing a spectrometer.
