@@ -98,3 +98,19 @@ The three priced bench candidates (CivilLaser collimator $84 + DFR0946 $8.90 + W
 3. Goptica: quote one V600-S/S-L2 cable with NA, both connector drawings, bend radius, jacket OD and UK freight.
 4. For Alibaba samples: specify **quantity 1 or 2**, exact variant, price per complete assembly, taxes/delivery basis, dispatch lead time and drawing. Reject a quotation whose minimum quantity changes the cost case.
 5. Before accepting China substitutions: revise CAD for actual geometry, document switch/regulator differences, and check received parts against specifications. Supplier catalogue claims are not measurements of our assembled instrument.
+
+
+## Small mechanical parts follow-up — 11 October 2026
+
+R1 OpenSCAD was checked: it uses a pin hinge and four magnet pockets, **no spring or spring seat**. Its pockets are nominally 6.2 mm diameter × 3.2 mm deep for 6 × 3 mm magnets, with 3.2 mm hinge bores for the proposed 3 mm metal pin. These are CAD dimensions, not tested fits. Screw/insert counts and retention details are not a released assembly schedule.
+
+| Part | Prototype purchase option | Price basis / action |
+|---|---|---|
+| M3 screws/nuts | [DFRobot FIT0294, M3 × 6 mm, 10 sets](https://www.dfrobot.com/product-839.html) | $0.80 per pack displayed. Useful small pack instead of full $11.95 FIT0224 assortment; final screw length depends on mount thickness and insert engagement |
+| M3 inserts | Harfington p-1169378 above, M3 × 4 mm long, nominal 4 mm OD | 30-pack cached $5.45; OD tolerance reaches 4.5 mm. Measure and print a fit coupon |
+| Magnets | [AliExpress 1005010437849856, indexed 40-piece N42 6 × 3 mm listing](https://aliexpress.ru/item/1005010437849856.html) | Price and UK availability not verified. Require axial magnetisation, coating, tolerance and grade confirmation. Regional page is a lead, not a UK checkout offer; need four, not forty |
+| Hinge pin | Harfington 3 mm rod above | Cut to reviewed length and add defined retention. Generic rod's broad tolerance needs confirmation |
+| Optional spring experiment | [Harfington p-1120338 compression springs](https://www.harfington.com/products/p-1120338) | $7.38 / 10 pack; OD 5 mm, wire 0.5 mm, free length 15 mm, rated 0.98 N/mm, listed 5.9 N at 9 mm compressed length. Published parameters make it a useful test lead, **not a selected clamp spring** |
+| Washers / nuts / standoffs / pin retention | FIT0224 includes M3 nuts and washers; enclosure spacers and hinge retention remain to detail | Avoid buying spacers or circlips until board positions and pin-groove/retention design are fixed; a plain rod has no circlip groove |
+
+A spring would require a design decision: opening assistance, closing force, or a compliant optical head. These are different functions and may need a torsion spring rather than the example compression spring. Select installed length/angle, travel, preload and force/torque before ordering. Do not add springs to the mandatory A-1 basket just because they are common in commercial leaf clips. Current preferred first mechanical trial remains the magnet-and-gasket R1 concept, with force and leaf-marking checks before adoption.
