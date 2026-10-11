@@ -1,0 +1,22 @@
+parameter,value_mm,status,notes
+jaw_width,70,proposed,printable body width
+jaw_depth,72,proposed,excludes front thumb tab
+plate_thickness,10,proposed,upper and lower jaws
+closed_leaf_gap,0.8,proposed,defined by four hard stops
+optical_aperture_diameter,10,proposed,measurement spot
+optical_centre_y,-7,proposed,relative to jaw centre toward insertion edge
+gasket_outer_diameter,22,proposed,soft black silicone
+gasket_inner_diameter,12,proposed,slightly larger than optical aperture
+gasket_thickness,0.8,proposed,verify compression
+diffuser_diameter,18,provisional,verify purchased part
+diffuser_thickness,1.5,provisional,verify purchased part
+lamp_diameter,25.4,provisional,MR8 assumption
+source_cartridge_outer_diameter,36,proposed,removable cartridge
+source_cartridge_height,36,provisional,adjust after lamp-holder selection
+collimator_diameter,12.7,provisional,verify purchased part
+collector_cartridge_outer_diameter,20,proposed,split clamp
+collector_cartridge_length,34,provisional,adjust after collimator selection
+hinge_axis_y,29,proposed,relative to jaw centre
+hinge_pin_diameter,3,proposed,use metal pin
+magnet_diameter,6,provisional,four disc magnets
+magnet_depth,3,provisional,verify purchased part
