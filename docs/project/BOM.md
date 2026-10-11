@@ -1,40 +1,34 @@
 # A-1 bill of materials
 
-Revision 0 — 11 October 2026. Planning quantities for one prototype, not a purchasing release. No orders confirmed. Supplier IDs link to [SUPPLIERS.md](SUPPLIERS.md). Blank/unquoted costs must be obtained before a total build budget is issued.
+Revision 1 — 11 October 2026. One transmission-only bench prototype. No orders confirmed. See the [UK purchasing shortlist](UK_PROCUREMENT.md) for exact product links, prices, dimensions, alternatives and outstanding checks. These are proposed selections; CAD R1 remains review-only.
 
-## Quoted and candidate parts
-
-| Part ID | Item | Qty | Supplier | Unit price | Price basis / source | Status / checks |
-|---|---|---:|---|---|---|---|
-| A1-001 | HYD1 fibre model, development board and TTL–RS485 module | 1 kit | S01 | USD 359 | Supplier reply supplied by Marcus, September 2026; tax/shipping unspecified | Quoted; confirm exact model, connector, fibre inclusion, board drawings and protocol |
-| A1-002 | Optical fibre patch cable | 1 | S01 / S04 | Unquoted | Ask whether included in A1-001 before purchasing | SMA905 candidate; confirm both ends, core, NA, spectral range and bend radius |
-| A1-003 | Adjustable fibre collimator | 1 | S04 / S05 | Unquoted | Supplier selection pending | Confirm spectral throughput, focus, NA and physical dimensions |
-| A1-004A | MR8 6 V 10 W halogen lamp, GZ4 | 1 | S02 | GBP 5.29 | Previously recorded listing, VAT included; reconfirm before order | Preferred geometry candidate only; coating and NIR throughput unresolved |
-| A1-004B | G4 6 V 10 W M42 clear capsule | 1 alternative | S03 | GBP 7.57 | Previously recorded listing, VAT included; reconfirm before order | Alternative to 004A, not additional; requires different holder and optics |
-
-The USD 359 kit quote is not the total prototype cost. Lamp alternatives must not be added together. GBP and USD are kept separate; shipping, import charges, unquoted hardware, labour and validation are excluded. Prior web prices are leads, not current quotations.
-
-## Unpriced supporting parts
-
-| Part ID | Item | Qty | Specification / next action | Status |
+| Part ID | Proposed item | Build quantity | Supplier | Status |
 |---|---|---:|---|---|
-| A1-005 | Ceramic lamp holder | 1 | Match selected GZ4/G4 lamp and measured dimensions | Unquoted |
-| A1-006 | Diffuser | 1 | Material, spectral transmission and heat tolerance to select; R1 size provisional | Unquoted |
-| A1-007 | Black leaf-contact gaskets | 2 | R1: 22 mm OD, 12 mm ID, 0.8 mm thick; validate pressure and sealing | Unquoted |
-| A1-008 | Metal/ceramic lamp mount and thermal barrier | 1 set | Design before powered operation; printed cartridge alone is insufficient | Design pending |
-| A1-009 | Regulated lamp supply | 1 | Match lamp voltage; 6 V/10 W implies 1.67 A running current; allow measured startup demand | Unquoted |
-| A1-010 | Lamp switching/driver circuit | 1 | Select after supply, startup and stability requirements | Unquoted |
-| A1-011 | External DC supply | 1 | Voltage/current/connectors depend on complete power design | Unquoted |
-| A1-012 | USB–RS485 interface | 0–1 | Confirm kit interface and laptop compatibility first | Inclusion unknown |
-| A1-013 | Metal hinge pin | 1 | R1 diameter 3 mm; length/retention to confirm | Unquoted |
-| A1-014 | Closure magnets | 4 | R1 6 × 3 mm; force, retention and leaf pressure untested | Unquoted |
-| A1-015 | M3 screws and heat-set inserts | 1 set | Determine quantities after mechanical review | Unquoted |
-| A1-016 | Wiring, locking connectors and strain relief | 1 set | Select after power/interface design | Unquoted |
-| A1-017 | Internal matte-black finish | 1 allowance | Check optical performance, adhesion and heat compatibility | Unquoted |
-| A1-018 | Printed lower/upper jaws and optical cartridges | 1 set | R1 concept files available; material and tolerances to validate | CAD review |
-| A1-019 | Electronics enclosure, lid and board mounts | 1 set | Proposed 160 × 100 × 55 mm envelope; not yet drawn | CAD pending |
-| A1-020 | Dark/reference fixtures | 1 set | Develop repeatable reference geometry and light exclusion | Design pending |
+| A1-001 | HYD1 fibre kit + development board + TTL–RS485 | 1 kit | S01 | USD 359 historical quote; contents/drawings/power pending |
+| A1-002 | 600 µm SMA905 fibre | 1 | S07 / S04 | Anglia range conflict; Edmund alternative; check kit inclusion first |
+| A1-003 | Adjustable SMA905 collimator | 1 | S07 / S04 | Anglia 6 mm lens candidate; external body drawing pending |
+| A1-004A | MR8 6 V 10 W lamp | Alternative only | S02 | Historical lead; reflector performance unresolved |
+| A1-004B | G4 M42 6 V 10 W capsule | 1 | S03 | Proposed bench choice, £7.57 inc VAT; source head redesign |
+| A1-005 | K507K ceramic G4 holder | 1 | S13 | Panel cutout known; body/panel thickness and VAT check |
+| A1-006 | Edmund 63-224 silica diffuser | 1 | S04 | 12.5 × 1.6 mm; does not fit provisional R1 seat |
+| A1-007 | Black silicone leaf gaskets | 2 | S12 | Cut from 0.8 mm stock; request small offcut; force test |
+| A1-008 | Metal/ceramic lamp support and thermal barrier | 1 set | S14 + fabrication | Raw aluminium priced; completed thermal assembly unquoted |
+| A1-009 | Pololu D30V30F6 6 V regulator | 1 | S08 | Bench candidate; verify startup, ripple and temperature |
+| A1-010 | Lamp enable control | 1 arrangement | Regulator EN + wiring | Separate automatic driver deferred; control detail pending |
+| A1-011 | Mean Well GST60A12-P1J + UK C13 lead | 1 each | S08 | Lamp branch only; not a confirmed HYD1 supply |
+| A1-012 | USB–RS485 interface | 0–1 | S09 / S08 | FTDI candidate; Waveshare isolated alternative sold out; kit/pinout check |
+| A1-013 | 3 mm metal hinge pin | 1 cut piece | S11 | Buy 333 mm rod; final length/retention pending |
+| A1-014 | 6 × 3 mm N42 magnets | 4 | S10 | Buy pack 20; validate closure and retention |
+| A1-015 | M3 screws/inserts | 1 set | S08 | Pack/assortment priced; dimensions and exact usage pending |
+| A1-016 | Wiring/connectors/strain relief | 1 set | S08 / S11 / S15 | Wire and GX12-3 candidate; jack ratings and remaining accessories pending |
+| A1-017 | Internal black optical lining | 1 allowance | S16 | Cool-side flock candidate; exact option and performance unconfirmed |
+| A1-018 | Printed jaws/cartridges | 1 set | Existing stock / S17 | PETG for cool fit prototypes; R2 required; print labour uncosted |
+| A1-019 | Enclosure and board mounts | 1 set | S09 | Hammond 1591ESBK candidate, 191 × 110 × 61 mm overall; fit check |
+| A1-020 | Dark/open-path reference fixtures | 1 set | Custom | Design and repeatability checks pending |
+| A1-021 | Sensor power rail, fuse/protection and thermal cutoff | 1 set | To select | Added omission; depends on board input/inrush/thermal design |
 
-## Existing equipment and later options
+## Cost and inventory rules
 
-3D printer, 18650 cells/holders and TTGO/Heltec hardware were mentioned in project discussions; availability and exact models need inventory confirmation. Batteries and embedded display/controller are not required for the initial externally powered A-1 bench prototype. Spare lamps, lenses, reflection optics and cuvettes are optional/later-stage items, not included above.
+Unknown costs are not zero. Do not add mutually exclusive lamp, fibre or interface alternatives together. Buy quantities may exceed build usage. VAT, stock and delivery require checkout confirmation; keep GBP and USD separate. No complete prototype total is issued until held/custom items are resolved. Existing printer, filament and electronics inventory has not been verified.
+
+Battery, display/controller, reflectance and cuvette parts belong to later prototypes, not this purchase list. Purchasing hardware does not validate nutrient estimates or replace laboratory calibration.

@@ -7,6 +7,7 @@ Low-cost agricultural leaf spectrometer development. Project owner: Marcus. Init
 HYD1 fibre-coupled spectrometer with a controlled light source and transmission-only leaf clamp. Start with a laptop and external DC power. This is an experimental instrument: nutrient predictions and savings from replacing laboratory tests have not been validated.
 
 - [Bill of materials](docs/project/BOM.md) — quantities, price basis and purchasing status.
+- [UK purchasing shortlist](docs/project/UK_PROCUREMENT.md) — product links, prices, dimensions, stock observations and order holds.
 - [Potential suppliers](docs/project/SUPPLIERS.md) — source links and outstanding checks.
 - [File register](docs/project/FILES.md) — design files, revisions and missing documents.
 - [Decisions and tasks](docs/project/PLAN.md) — scope, next steps and release gates.
