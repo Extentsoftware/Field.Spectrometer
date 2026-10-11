@@ -8,6 +8,7 @@ HYD1 fibre-coupled spectrometer with a controlled light source and transmission-
 
 - [Bill of materials](docs/project/BOM.md) — quantities, price basis and purchasing status.
 - [UK purchasing shortlist](docs/project/UK_PROCUREMENT.md) — product links, prices, dimensions, stock observations and order holds.
+- [China purchasing shortlist](docs/project/CHINA_PROCUREMENT.md) — manufacturer, Alibaba and AliExpress candidates, MOQ costs and UK comparison.
 - [Potential suppliers](docs/project/SUPPLIERS.md) — source links and outstanding checks.
 - [File register](docs/project/FILES.md) — design files, revisions and missing documents.
 - [Decisions and tasks](docs/project/PLAN.md) — scope, next steps and release gates.

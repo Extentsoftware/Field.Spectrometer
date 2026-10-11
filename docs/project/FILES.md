@@ -5,9 +5,10 @@ Imported 11 October 2026. R1 files are the existing review snapshot, not newly v
 | Record | Location | Revision / status |
 |---|---|---|
 | Project overview | [README](../../README.md) | Active |
-| Bill of materials | [BOM](BOM.md) | Revision 1; UK candidates and purchase holds |
+| Bill of materials | [BOM](BOM.md) | Revision 2; UK candidates and China alternatives |
 | Supplier shortlist | [Suppliers](SUPPLIERS.md) | UK sources reviewed; historical leads retained |
 | UK purchasing shortlist | [Procurement](UK_PROCUREMENT.md) | 11 October 2026; exact variants, dimensions and price basis |
+| China purchasing shortlist | [China procurement](CHINA_PROCUREMENT.md) | 11 October 2026; prices, MOQ, dimensions and unresolved alternatives |
 | Decisions and actions | [Plan](PLAN.md) | Active |
 | Editable clamp CAD | [OpenSCAD](../../hardware/a1/cad/r1/A1_leaf_clamp.scad) | R1 review only |
 | CAD dimensions | [Dimension schedule](../../hardware/a1/cad/r1/A1_dimensions_R1.csv) | R1 provisional supplier dimensions |

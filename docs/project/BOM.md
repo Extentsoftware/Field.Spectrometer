@@ -1,6 +1,6 @@
 # A-1 bill of materials
 
-Revision 1 — 11 October 2026. One transmission-only bench prototype. No orders confirmed. See the [UK purchasing shortlist](UK_PROCUREMENT.md) for exact product links, prices, dimensions, alternatives and outstanding checks. These are proposed selections; CAD R1 remains review-only.
+Revision 2 — 11 October 2026. One transmission-only bench prototype. No orders confirmed. See the [UK purchasing shortlist](UK_PROCUREMENT.md) for exact product links, prices, dimensions, alternatives and outstanding checks. China alternatives are recorded separately in [CHINA_PROCUREMENT.md](CHINA_PROCUREMENT.md); they do not silently replace the UK selections. These are proposed selections; CAD R1 remains review-only.
 
 | Part ID | Proposed item | Build quantity | Supplier | Status |
 |---|---|---:|---|---|
