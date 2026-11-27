@@ -8,7 +8,7 @@ Obtain the exact HYD1 fibre variant datasheet, calibrated wavelength range, reso
 
 ## Gate 2 — bench acquisition and phone
 
-Use manufacturer-supported equipment to obtain and export raw spectra. Bring up controller and phone interface using a simulator if sensor is unavailable. Confirm offline connection, storage across resets, download, authentication, correct reconnection and behaviour when storage is full. Test actual target Android/iOS devices if both are required. Check that original data and references are not overwritten.
+Use manufacturer-supported equipment to obtain and export raw spectra. Bring up controller and phone interface using a simulator if sensor is unavailable. Confirm offline BLE discovery, pairing, secure access, storage across resets, chunked spectrum transfer and integrity, interruption recovery, export, reconnection and behaviour when storage is full. Test actual target Android/iOS devices if both are required. Check that original data and references are not overwritten.
 
 ## Gate 3 — light and optical heads
 
