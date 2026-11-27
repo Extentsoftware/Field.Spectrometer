@@ -5,6 +5,7 @@ Imported 11 October 2026. R1 files are the existing review snapshot, not newly v
 | Record | Location | Revision / status |
 |---|---|---|
 | Project overview | [README](../../README.md) | Active |
+| A-2 design register | [A-2 design documents](A2_INDEX.md) | Draft concept and validation plan; 27 November 2026 |
 | Bill of materials | [BOM](BOM.md) | Revision 2; UK candidates and China alternatives |
 | Supplier shortlist | [Suppliers](SUPPLIERS.md) | UK sources reviewed; historical leads retained |
 | UK purchasing shortlist | [Procurement](UK_PROCUREMENT.md) | 11 October 2026; exact variants, dimensions and price basis |
