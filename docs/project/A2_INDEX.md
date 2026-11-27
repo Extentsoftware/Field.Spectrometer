@@ -1,6 +1,6 @@
 # A-2 field instrument: design register
 
-Draft, 27 November 2026. The user has selected the HYD1 fibre platform and a phone interface. The first proposed phone link is local Wi-Fi; Bluetooth is an option.
+Draft, 27 November 2026. The user has selected the HYD1 fibre platform and a phone interface. Bluetooth is the selected phone connection; Bluetooth Low Energy (BLE) is the proposed implementation.
 
 - [Requirements and user workflow](A2_REQUIREMENTS.md)
 - [System and optical design](A2_SYSTEM_DESIGN.md)
