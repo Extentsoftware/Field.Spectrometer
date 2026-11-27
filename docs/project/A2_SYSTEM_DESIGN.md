@@ -6,7 +6,7 @@ Status: concept for review, 27 November 2026. No PCB, thermal design or manufact
 
 ```mermaid
 flowchart TD
- P[Phone browser] <-->|Local Wi-Fi| C[Controller and local storage]
+ P[Phone app] <-->|Bluetooth LE| C[Controller and local storage]
  C <-->|Interface to confirm| H[HYD1 fibre spectrometer]
  C --> L[Controlled broadband source]
  L --> O[Transmission or reflectance head]
@@ -27,9 +27,9 @@ Physical optical paths, number of fibres, source geometry and switching between 
 
 ## Controller and communication
 
-An ESP32-family module hosting a Wi-Fi access point and local web interface is the first implementation proposal. BLE may be explored later. Select an exact module after memory, storage and interface needs are measured. The HYD1 supplier's TTL-to-RS485 module is included in the reported kit; confirm which interface and signal levels the sensor and supplied board expose. RS485 is not a direct 3.3 V UART connection.
+Bluetooth is the selected phone link. An ESP32-family module supporting Bluetooth Low Energy (BLE) and a phone app are the initial implementation proposal. Confirm target phone operating systems and controller BLE support. Select an exact module after memory, storage and interface needs are measured. The HYD1 supplier's TTL-to-RS485 module is included in the reported kit; confirm which interface and signal levels the sensor and supplied board expose. RS485 is not a direct 3.3 V UART connection.
 
-Local nonvolatile storage must survive reset, handle full storage safely and preserve saved records. Implement authentication and individual credentials. Confirm suitable time source and explicitly identify uncertain timestamps.
+Local nonvolatile storage must survive reset, handle full storage safely and preserve saved records. Design authenticated pairing, bonding, device ownership and a physical recovery/re-pair procedure; choose pairing method based on actual input/output capabilities, without assuming a display or keyboard. Confirm suitable time source and explicitly identify uncertain timestamps.
 
 ## Power and packaging
 
