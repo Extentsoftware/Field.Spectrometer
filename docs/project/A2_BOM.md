@@ -12,7 +12,7 @@ Concept revision 0, 27 November 2026. One instrument; no purchase release and no
 | A2-006 | Transmission head, opaque gaskets and reference fixture | 1 set | Adapt only after reviewing A-1 geometry and fit |
 | A2-007 | Reflectance head, mounts and reference fixture | 1 set | Geometry and standard to be selected |
 | A2-008 | Reflectance reference standard | 1 | Spectral coverage, calibration and cost unconfirmed |
-| A2-009 | Controller and interface electronics | 1 set | ESP32 family proposed; exact module and sensor interface unconfirmed |
+| A2-009 | Controller and interface electronics | 1 set | ESP32 family with BLE proposed; exact module, antenna layout and sensor interface unconfirmed |
 | A2-010 | Nonvolatile storage | 1 | Select after measurement size, retention and export design |
 | A2-011 | Rechargeable battery, protection and charger | 1 set | Chemistry, capacity, charging and safe thermal integration not selected |
 | A2-012 | Regulators, fuses, switches and wiring | 1 set | Sensor and lamp rail requirements unknown |
