@@ -4,7 +4,7 @@ Status: draft for review, 27 November 2026. This is an engineering proposal, not
 
 ## Goal and decisions
 
-Build a portable prototype to acquire repeatable macadamia leaf spectra and record field metadata without farm internet. HYD1 fibre module is the selected spectrometer platform; the user accepts a phone as display using Bluetooth or Wi-Fi. Transmission and reflectance are intended A-2 capabilities. The initial Wi-Fi web interface and rechargeable power are proposals. A cuvette head is a future option and is not a release requirement.
+Build a portable prototype to acquire repeatable macadamia leaf spectra and record field metadata without farm internet. HYD1 fibre module is the selected spectrometer platform; the user has selected a phone display connected by Bluetooth. Transmission and reflectance are intended A-2 capabilities. Bluetooth Low Energy (BLE), a phone app and rechargeable power are proposed implementations. A cuvette head is a future option and is not a release requirement.
 
 ## Requirements and evidence
 
@@ -13,7 +13,7 @@ Build a portable prototype to acquire repeatable macadamia leaf spectra and reco
 | R01 | Capture and retain unmodified sensor spectra, wavelength calibration and measurement settings | Compare exported raw data with manufacturer output |
 | R02 | Support transmission and reflectance with distinct measurement geometries and references | Measure reference and sample for each mode; review optical paths |
 | R03 | Record a dark measurement and flag saturation, weak signal and invalid reference | Inject or acquire boundary cases; confirm flags |
-| R04 | Provide offline phone-based user interface for section, sample ID, mode, scan and results | Complete a field workflow with internet disabled on target phones |
+| R04 | Provide an offline Bluetooth-connected phone interface for section, sample ID, mode, scan and results | Complete a field workflow with internet disabled on target phones |
 | R05 | Retain scans across disconnects and power cycling, export with metadata | Test interrupted scans, restart and export; verify files |
 | R06 | Operate from portable rechargeable power; display battery status | Measure run time and accuracy after battery architecture chosen |
 | R07 | Prevent accidental lamp overheating and protect wiring, battery and user-accessible surfaces | Review circuit and perform worst-case sustained thermal tests |
@@ -27,7 +27,7 @@ Numeric acceptance thresholds for spectral repeatability, wavelength range, runt
 
 ## Operating workflow
 
-1. Power instrument; join its local network; open its interface.
+1. Power instrument; open the phone app; select and securely connect to the instrument.
 2. Select operator, farm section, tree/sample ID and transmission or reflectance.
 3. Take dark and mode-specific reference when prompted; check measurement quality.
 4. Position leaf in defined location, acquire spectrum and display quality status.
